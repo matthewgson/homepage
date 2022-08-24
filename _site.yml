@@ -3,10 +3,13 @@ title: "Matthew Son's Website"
 description: |
   Matthew Son's Website
 output_dir: "docs"
+theme: mattthew_theme.css
 navbar:
   right:
     - text: "Home"
       href: index.html
+    - text: "Other home"
+      href: home.html
     - text: "About"
       href: about.html
 output: distill::distill_article

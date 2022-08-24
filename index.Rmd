@@ -1,5 +1,5 @@
 ---
-title: "Building Websites in RStudio"
+title: "Matthew Son"
 image: "img/website-logo.png"
 links:
   - label: Slides
@@ -18,6 +18,20 @@ site: distill::distill_website
 ## Welcome! 
 
 Welcome! This website is a demo for the *Building Websites in RStudio* talk presented at [RLadies Amherst](https://github.com/RLadies-Amherst/RLadies-Amherst) and [RLadies Baltimore](https://rladies-baltimore.github.io/) in Spring 2021. The site includes slides and additional resources to learn more about using [Distill](https://rstudio.github.io/distill/) and [Blogdown](https://bookdown.org/yihui/blogdown/) making websites in RStudio.
+
+
+
+## Education
+
+**Massachusetts Institute of Technology** | Cambridge, MA
+
+Ph.D. in Computer Science | September 2009 - May 2014
+
+**The University of California, Berkeley** | Berkeley, CA
+
+B.S. in Computer Science | September 2005 - May 2009
+
+
 
 ## Resources
 
@@ -39,3 +53,6 @@ Welcome! This website is a demo for the *Building Websites in RStudio* talk pres
 ## RStudio + GitHub
 
 -   [Happy git and GitHub for the R useR](https://happygitwithr.com/) by Jenny Bryan, the STAT 545 TAs, Jim Hester
+
+
+
