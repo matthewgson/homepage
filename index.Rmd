@@ -1,35 +1,70 @@
 ---
 title: "Matthew Son"
-image: "img/website-logo.png"
+image: "images/IMG_3400-modified.jpg"
 links:
-  - label: Slides
-    url: "rladies-build-websites.pdf"
-  - label: GitHub
-    url: "https://github.com/matackett/rladies-build-websites"
-  - label: Twitter
-    url: "https://twitter.com/MT_Statistics"
-  - label: Email
-    url: "mailto:maria.tackett@duke.edu"
+  - label: '<i class="fab fa-github"></i> GitHub'
+    url: 'https://github.com/matthewgson'
+  # - label: '<i class="fab fa-slack"></i> Join Us on Slack' 
+  #   url: 'https://r-girls.slack.com target="_blank"'    
+  - label: '<i class="fab fa-linkedin"></i> LinkedIn'
+    url: 'https://www.linkedin.com/in/matthew-son-2870b7185/'
+  - label: '<i class="fas fa-envelope"></i> Email'
+    url: "mailto:gunsu.son@warrington.ufl.edu" 
+  - label: 'CV'
+    url: 'files/Matthew_CV(Aug24th).pdf'
 output:
   postcards::trestles
 site: distill::distill_website
 ---
 
-## Welcome! 
+## Welcome!
 
-Welcome! This website is a demo for the *Building Websites in RStudio* talk presented at [RLadies Amherst](https://github.com/RLadies-Amherst/RLadies-Amherst) and [RLadies Baltimore](https://rladies-baltimore.github.io/) in Spring 2021. The site includes slides and additional resources to learn more about using [Distill](https://rstudio.github.io/distill/) and [Blogdown](https://bookdown.org/yihui/blogdown/) making websites in RStudio.
+I'm a Ph.D. candidate in Finance at the University of Florida, and expected to finish the program in 2023. I'm on the job market this year. My research interest includes Big data/Maching Learning in Finance, FinTech, Derivative securities, Market microstructure and Mutual funds. 
+
+
+
+
+<!-- Welcome! This website is a demo for the *Building Websites in RStudio* talk presented at [RLadies Amherst](https://github.com/RLadies-Amherst/RLadies-Amherst) and [RLadies Baltimore](https://rladies-baltimore.github.io/) in Spring 2021. The site includes slides and additional resources to learn more about using [Distill](https://rstudio.github.io/distill/) and [Blogdown](https://bookdown.org/yihui/blogdown/) making websites in RStudio. -->
 
 
 
 ## Education
 
-**Massachusetts Institute of Technology** | Cambridge, MA
+----------
 
-Ph.D. in Computer Science | September 2009 - May 2014
 
-**The University of California, Berkeley** | Berkeley, CA
 
-B.S. in Computer Science | September 2005 - May 2009
+**University of Florida**, Gainesville, FL
+<p style="text-align:left;">
+    Ph.D. in Finance
+    <span style="float:right;">
+        | 2023 (Expected)  
+    </span>
+</p>
+**University of Alberta**, Edmondton, AB
+<p style="text-align:left;">
+    M.A. in Economics and Finance
+    <span style="float:right;">
+        | 2018
+    </span>
+</p>
+**Korea University**, Seoul, Korea
+<p style="text-align:left;">
+    B.A. in Economics
+    <span style="float:right;">
+        | 2011
+    </span>
+</p>
+<p style="text-align:left;">
+    B.Sc. in Public Health 
+    <span style="float:right;">
+        | 2011
+    </span>
+</p>
+
+
+
+
 
 
 
@@ -53,6 +88,50 @@ B.S. in Computer Science | September 2005 - May 2009
 ## RStudio + GitHub
 
 -   [Happy git and GitHub for the R useR](https://happygitwithr.com/) by Jenny Bryan, the STAT 545 TAs, Jim Hester
+
+
+
+</div>
+# Welcome!
+We are delighted to announce that we are setting up a worldwide network to promote the use of R - a leading data science programming language - in secondary schools for girls.
+
+This site is aimed primarily at teachers who want to use R in their lessons. On this website, you can find details on:
+
+- <a href="https://r-girls.github.io/website/getting_started.html" target="_blank">Getting Started</a>
+- Ready made <a href="https://r-girls.github.io/website/math_lessons.html" target="_blank">Math</a>, <a href="https://r-girls.github.io/website/science_lessons.html" target="_blank">Science</a> and <a href="https://r-girls.github.io/website/geography_lessons.html" target="_blank">Geography</a> lessons.
+- Or,	join us for a friendly chat on <a href="https://r-girls.slack.com" target="_blank">Slack</a>
+
+<!-- [Getting Started](https://r-girls.github.io/website/getting_started.html)  -->
+<!-- - Ready made [Math](https://r-girls.github.io/website/math_lessons.html), [Science](https://r-girls.github.io/website/science_lessons.html), [Geography](https://r-girls.github.io/website/geography_lessons.html), and [R](https://r-girls.github.io/website/r_lessons.html) lessons. -->
+<!-- - Or,	join us for a friendly chat on slack -->
+
+
+
+This website was built completely in **R** using the `distill` package.
+
+<div class="license">
+**License and Citation:** You can use, modify, and adapt any of the lessons, but please include the following attribution: *RGirls Community. (2022, April 10). RGirls Lessons. Zenodo. [https://doi.org/10.5281/zenodo.6436861](https://doi.org/10.5281/zenodo.6436861)* 
+</div>
+
+  
+</div>
+
+Julie Jung is an NSF Postdoctoral Research Fellow based at the University of Utah studying developmental plasticity in extremophile Diplogastrid nematodes. As a postdoc in molecular biology, Julie admittedly spends the majority of her time contentedly pushing around small sterile volumes of liquid (she’s somewhat sheepish to say she has a favorite pipette now). But studying plasticity in several systems gives her a chance to do something new pretty much every day, like grow plants or trap voles or kayak around the Great Salt Lake collecting worms.
+
+Julie spent her Ph.D. chasing frogs conducting fieldwork at the Smithsonian Tropical Research Institute in Gamboa, Panama where she examined vibration-cued early hatching behavior (plasticity!) in Agalychnis callidryas (red-eyed treefrogs). Working outdoors in sweaty, soggy, buggy, humid, normally deplorable conditions makes her really happy.
+
+Julie got her B.A. from Williams College in 2015 and her dual M.A./Ph.D. from Boston University in 2021. She is basically in the 23rd (24th?) grade, but she’s sort of losing count at this point. See her CV for more academic information. Julie is a 1st generation college graduate and a 1st generation US citizen. She credits everything good in her life to her loving parents, who rededicated and rearranged their entire lives to facilitate the success of their children.
+
+Julie spends almost all her free time doodling or doing typical Utah things like biking, skiing, and climbing rock & ice. If you’re in need of a graphic designer or an outdoorsing partner, here’s how to contact her:
+
+<!-- </div> -->
+
+I’m a Master student in Statistical Science at Ghent University, a PhD candidate in Organizational Behavior at the Stanford Graduate School of Business, and an Affiliate at the Stanford Data Science Center for Open and Reproducible Science (SDS-CORES). I’m interested in Organizational Behavior, with a special interest in Groups and Teams and Leadership. In addition to my substantive work in Organizational Behavior, I’m interested in meta-science and methods. In my free time, I enjoy deadlifting, hiking, and taking board games much too seriously.
+
+I’m always looking for ways to contribute to large-scale efforts that aim to improve the rigor and reproducibility of (behavioral) science. For example, I’m a Project Manager of the Replications & Reversals project at FORRT (Framework for Open and Reproducible Research Training); I’m an ex-officio member of the Executive Board of SIPS (The Society for the Improvement of Psychological Science); and I’m a Team Lead at the NASA TOPS (Transform to Open Science) Mission, where I lead a team of subject-matter experts in developing a curriculum on Open Science Tools and Resources. I’m also actively involved with the Center for Open Science DARPA-SCORE project as a Reproduction and Replication Analyst and Auditor.
+
+My favorite letter in the alphabet is R, and I am weirdly evangelical about it. I co-teach Data & Decisions — a graduate-level, introductory class on probability and statistics using  — and I’m a co-organizer of the Stanford Data Science for Social Good program. I learn by teaching, so I consider myself very lucky!
+
 
 
 
