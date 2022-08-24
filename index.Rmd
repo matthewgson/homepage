@@ -23,6 +23,8 @@ site: distill::distill_website
 
 I'm a Ph.D. candidate in Finance at the University of Florida, and expected to finish the program in 2023. I'll be on the job market this year. My research interest includes Big data/Maching Learning in Finance, FinTech, Derivative securities, Market microstructure and Mutual funds. 
 
+I taught Financial Modeling course that introduces various modern technologies including object-oriented programming, automation techniques and machine learning. I was chosen as Award winner of Ph.D Excellence in Teaching in Warrington College of Business. 
+
 
 
 
@@ -33,7 +35,6 @@ I'm a Ph.D. candidate in Finance at the University of Florida, and expected to f
 ## Education
 
 ----------
-
 
 
 **University of Florida**, Gainesville, FL
