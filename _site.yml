@@ -12,15 +12,15 @@ navbar:
       href: index.html
     
     - text: "Research"
-      href: research.html
+      href: research.html # listing
     
     - text: "Teaching"
       menu:
         - text: "Financial Modeling"
         - href: financial_modeling.html
     
-    - text: "Blog"
-      href: a.html
+    - text: "Codes"
+      href: blog.html # listing
       
     - icon: fa fa-github
       href: https://github.com/matthewgson
