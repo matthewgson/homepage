@@ -1,0 +1,12 @@
+---
+title: "Financial Modeling"
+auhtor: Matthew Son
+description: |
+  Sample teaching materials, evaluations, student testimonials
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+

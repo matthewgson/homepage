@@ -1,5 +1,5 @@
 name: "."
-title: "Matthew Son's Website"
+title: "Matthew Son"
 description: |
   Matthew Son's Website
 output_dir: "docs"
@@ -8,16 +8,20 @@ navbar:
   search: false # searchbox turn off
   
   right:
-    # - text: "Home"
-    #   href: index.html
+    - text: "Home"
+      href: index.html
+    
     - text: "Research"
       href: research.html
+    
     - text: "Teaching"
-      href: about.html
+      menu:
+        - text: "Financial Modeling"
+        - href: financial_modeling.html
+    
     - text: "Blog"
-      menu: 
-        - text: "R Cookbook"
-          href: a.html
+      href: a.html
+      
     - icon: fa fa-github
       href: https://github.com/matthewgson
     - icon: fab fa-stack-overflow

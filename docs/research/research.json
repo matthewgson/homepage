@@ -54,8 +54,8 @@
     "date": "2022-08-24",
     "categories": [],
     "contents": "\n\n\n\nAbstract\nU.S. stock exchanges have closing auctions that generate robust\nbenchmark closing prices; however, options markets do not have closing\nauctions. Exchanges and brokerages use mid-quote at close and funds use\nthe last trade as the benchmark price. The closing quotes are noisy\nbecause the options trading near the market close is very volatile. In\nthis study, we estimate a more robust and efficient closing option price\nusing the closing stock price with a machine learning model. We consider\nseveral machine learning algorithms: Gradient Boosting Machine (GBM),\nExtreme gradient boosting, Random forest, Deep learning, and Elastic\nnet. We obtain a reliable option price estimator by combining\nBlack-Scholes option prices and the machine learning algorithm (GBM),\nwith an out-of-sample r-squared of 99.8%. We test the reliability of our\nestimate and analyze the price discrepancy between the 4pm mid-quote and\nour estimates. Unlike stocks, most (75%) of estimated options’ closing\nprices lie within the bid-ask spread, likely due to the wide option\nspreads at the close. We find that the price deviation of the ML\nestimate and mid-quote at the close is particularly large for 1) large\nfirms, 2) out-of-the-money options, and 3) short expiration options.\nFormal regression tests show consistent results that options that are\nactively traded, and that have larger spreads exhibit greater\ndeviations. Our result shed light on the validity of using the\nend-of-day mid-quote as a benchmark option price.\n\n\n\n",
-    "preview": {},
-    "last_modified": "2022-08-24T23:07:02-04:00",
-    "input_file": "options_ml.knit.md"
+    "preview": "research/3options_ml/distill-preview.png",
+    "last_modified": "2022-08-24T23:16:16-04:00",
+    "input_file": {}
   }
 ]

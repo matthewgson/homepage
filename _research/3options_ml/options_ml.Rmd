@@ -19,7 +19,7 @@ knitr::opts_chunk$set(echo = FALSE)
 ```
 
 ```{r}
-knitr::include_graphics('https://cdn.britannica.com/40/216540-138-14385CFE/How-machine-learning-is-predicting-synthetic-products.jpg?w=800&h=450&c=crop')
+knitr::include_graphics('../../images/Machine-Learning.jpg')
 ```
 
 
