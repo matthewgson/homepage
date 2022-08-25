@@ -1,0 +1,26 @@
+---
+title: "High-Frequency Trading in the Options Market and Order Flow Toxicity"
+description: |
+  Working Paper (Job Market Paper)
+# date: NULL
+author:
+  - name: Matthew Son
+output:
+  distill::distill_article:
+    self_contained: true
+---
+
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+```{r}
+knitr::include_graphics('../../images/trading.jpg')
+```
+
+
+### Abstract
+
+The behavior and impact of HFTs in terms of market quality has mainly focused on the stock market and options market have received less attention. Options exchanges identify high-frequency/algorithmic traders as Professional customers (PCs). In this study, we use a granular data that identifies trades by customers, PCs, and Market makers (MMs). We find that PCs mainly trade as a counterparty to customers, similar to MMs. However, the liquidity provision by PCs leads to order flow toxicity: PCs use a “cream skimming” strategy that imposes adverse selection costs to MMs. PCs mainly trade with uninformed customers, and strategically pick resting orders, most likely leveraging their speed advantage. PCs provide less liquidity when the market and stock volatility are high. Customer call option trades made with PCs have one-tenth of price impact and no return or volatility predictability, while there are significant price impact in addition to return and volatility predictability when executed against MMs during the next 30 minutes. Our findings on HFTs’ non-arbitrage channel of order flow toxicity is new and suggests that the role of HFTs should be better understood in the context of the options market structure.

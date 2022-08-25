@@ -21,15 +21,10 @@ site: distill::distill_website
 
 ## Welcome!
 
-I'm a Ph.D. candidate in Finance at the University of Florida, and expected to finish the program in 2023. I'll be on the job market this year. My research interest includes Big data/Maching Learning in Finance, FinTech, Derivative securities, Market microstructure and Mutual funds. 
+I'm a Ph.D. candidate in Finance at the University of Florida, and expected to finish the program in 2023. My research interest includes Big data/Maching Learning in Finance, FinTech, Derivative securities, Market microstructure and Mutual funds. I'll be on the job market this year. 
 
-I taught Financial Modeling course that introduces various modern technologies including object-oriented programming, automation techniques and machine learning. I was chosen as Award winner of Ph.D Excellence in Teaching in Warrington College of Business. 
-
-
-
-
-<!-- Welcome! This website is a demo for the *Building Websites in RStudio* talk presented at [RLadies Amherst](https://github.com/RLadies-Amherst/RLadies-Amherst) and [RLadies Baltimore](https://rladies-baltimore.github.io/) in Spring 2021. The site includes slides and additional resources to learn more about using [Distill](https://rstudio.github.io/distill/) and [Blogdown](https://bookdown.org/yihui/blogdown/) making websites in RStudio. -->
-
+I was chosen as [Award winner of Ph.D Excellence in Teaching](https://news.warrington.ufl.edu/students/three-finance-and-accounting-phd-students-honored-with-teaching-awards/) in Warrington College of Business.
+I taught *Financial Modeling* course at UF that introduces various modern technologies including object-oriented programming, automation techniques and machine learning. 
 
 
 ## Education
