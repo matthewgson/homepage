@@ -12,8 +12,10 @@ links:
     url: 'https://www.linkedin.com/in/matthew-son-2870b7185/'
   - label: '<i class="fas fa-envelope"></i> Email'
     url: "mailto:gunsu.son@warrington.ufl.edu" 
-  - label: 'CV'
+  - label: '<i class="fa fa-file-text-o"></i> CV'
     url: 'files/Matthew_CV(Aug24th).pdf'
+  - label: '<i class="fa fa-stack-overflow"></i> StackOverflow'
+    url: 'https://stackoverflow.com/users/10484383/matthew-son'
 output:
   postcards::trestles
 site: distill::distill_website
@@ -21,10 +23,12 @@ site: distill::distill_website
 
 ## Welcome!
 
-I'm a Ph.D. candidate in Finance at the University of Florida, and expected to finish the program in 2023. I'm on the job market this year. My research interest includes Big data/Maching Learning in Finance, FinTech, Derivative securities, Market microstructure and Mutual funds. I'll be presenting my paper at the FMA Doctoral, FMA Asia and Global Conference. 
 
-I was a recipient of [**Ph.D Excellence in Teaching Award**](https://news.warrington.ufl.edu/students/three-finance-and-accounting-phd-students-honored-with-teaching-awards/) at Warrington College of Business.
-I taught *Financial Modeling* course at that introduces various modern technologies including object-oriented programming, automation techniques and machine learning.  I value mentoring relationships with my former students and look forward to many more.
+I am a Ph.D. candidate in Finance at the University of Florida and expected to complete my degree by Summer 2023. I am on the job market this year. My research interests are big data, machine Learning in Finance, FinTech, derivative securities, market microstructure, and mutual funds. I will be presenting *“High-Frequency Trading in the Options Market and Order Flow Toxicity”* at the FMA Ph.D. Special Session (2022), FMA Doctoral Consortium (2022), FMA Asia (2022), and FMA Global Conference (2022).
+
+
+I am a recipient of [**the Ph.D. Excellence in Teaching Award**](https://news.warrington.ufl.edu/students/three-finance-and-accounting-phd-students-honored-with-teaching-awards/) at Warrington College of Business. I taught *Financial Modeling* course that introduces various modern technologies including object-oriented programming, automation techniques and machine learning. I value mentoring relationships with my students and look forward to many more.
+
 
 ## Education
 

@@ -15,9 +15,10 @@ navbar:
       href: research.html # listing
     
     - text: "Teaching"
-      menu:
-        - text: "Financial Modeling"
-        - href: financial_modeling.html
+      href: teaching.html
+      # menu:
+      #   - text: "Financial Modeling"
+      #   - href: financial_modeling.html
     
     - text: "Codes"
       href: blog.html # listing
