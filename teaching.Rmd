@@ -1,8 +1,8 @@
 ---
 title: "Teaching"
 description: |
-  My lecture syllabus, and students' testimonials on Financial Modeling (FIN 4453) in Fall 2021. 
-  Financial modeling course is the first course at UF that aims to teach modern technologies that is highly applicable for finance.
+  This page presents my lecture syllabus and students' comments on Financial Modeling (FIN 4453) course I taught in Fall 2021. 
+  It was the first course from UF that aims to teach modern technologies that is highly applicable for finance professionals.
 # author:
 #   - name: Matthew Son 
 #     # url: https://example.com/norajones
