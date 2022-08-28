@@ -31,4 +31,6 @@ navbar:
 google_analytics: "G-FQJSVCPTF5"
 
 output: distill::distill_article
+  includes:      
+      in_header: ga_analytics.html
     
