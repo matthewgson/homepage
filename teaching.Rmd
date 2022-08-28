@@ -16,6 +16,7 @@ output: distill::distill_article
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
+
 ### Lecture Materials
 
 1. [**Syllabus for FIN 4453**](files/FIN4453-Syllabus.pdf)
@@ -49,7 +50,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 - "Professor Son is highly enthusiastic and knowledgeable about the course. He presents information in a meaningful way and fosters an environment that is excellent for learning."
 
--  "Engages the class very much and always is enthusiastic about the material. His knowledge of Python is very extensive and helped us understand it, given that most of us did not have prior coding experience."
+- "Engages the class very much and always is enthusiastic about the material. His knowledge of Python is very extensive and helped us understand it, given that most of us did not have prior coding experience."
 
 - "Professor Son is extremely patient and knowledgeable. He always checks in with the class to ensure that all students are keeping up and understand the material. He asked for feedback many times and altered the class schedule to fit our class needs. He is highly adaptable."
 
