@@ -28,5 +28,7 @@ navbar:
     - icon: fab fa-stack-overflow
       href: https://stackoverflow.com/users/10484383/matthew-son
 
+google_analytics: "G-FQJSVCPTF5"
+
 output: distill::distill_article
     
