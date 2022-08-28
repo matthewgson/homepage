@@ -13,7 +13,7 @@ links:
   - label: '<i class="fas fa-envelope"></i> Email'
     url: "mailto:gunsu.son@warrington.ufl.edu" 
   - label: '<i class="fa fa-file-text-o"></i> CV'
-    url: 'files/Matthew_CV(Aug24th).pdf'
+    url: 'files/Matthew_CV.pdf'
   - label: '<i class="fa fa-stack-overflow"></i> StackOverflow'
     url: 'https://stackoverflow.com/users/10484383/matthew-son'
 output:
@@ -24,7 +24,7 @@ site: distill::distill_website
 ## Welcome!
 
 
-I am a Ph.D. candidate in Finance at the University of Florida and expected to complete my degree by Summer 2023. I am on the job market this year. My research interests are big data, machine Learning in Finance, FinTech, derivative securities, market microstructure, and mutual funds. I will be presenting *“High-Frequency Trading in the Options Market and Order Flow Toxicity”* at the FMA Ph.D. Special Session (2022), FMA Doctoral Consortium (2022), FMA Asia (2022), and FMA Global Conference (2022).
+I am a Ph.D. candidate in Finance at the University of Florida and expected to complete my degree by summer 2023. I am on the job market this year. My research interests are big data, machine Learning in Finance, FinTech, derivative securities, market microstructure, and mutual funds. I will be presenting my job market paper, *“High-Frequency Trading in the Options Market and Order Flow Toxicity”* at the FMA Ph.D. Special Session (2022), FMA Doctoral Consortium (2022), FMA Asia (2022), and FMA Global Conference (2022).
 
 
 I am a recipient of [**the Ph.D. Excellence in Teaching Award**](https://news.warrington.ufl.edu/students/three-finance-and-accounting-phd-students-honored-with-teaching-awards/) at Warrington College of Business. I taught *Financial Modeling* course that introduces various modern technologies including object-oriented programming, automation techniques and machine learning. I value mentoring relationships with my students and look forward to many more.
