@@ -4,6 +4,8 @@ description: |
   Matthew Son's Website
 output_dir: "docs"
 theme: mattthew_theme.css
+google_analytics: "G-FQJSVCPTF5"
+
 navbar:
   search: false # searchbox turn off
   
@@ -28,7 +30,6 @@ navbar:
     - icon: fab fa-stack-overflow
       href: https://stackoverflow.com/users/10484383/matthew-son
 
-google_analytics: "G-FQJSVCPTF5"
 
 output: distill::distill_article
   includes:      
