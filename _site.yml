@@ -20,7 +20,7 @@ navbar:
       #   - text: "Financial Modeling"
       #   - href: financial_modeling.html
     
-    - text: "Codes"
+    - text: "Code"
       href: blog.html # listing
       
     - icon: fa fa-github
