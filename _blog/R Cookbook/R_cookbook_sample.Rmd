@@ -1,8 +1,7 @@
 ---
 title: "Cookbook for R"
 description: |
-  My R/Python Code cookbook
-
+  My R/Python Code cookbook. Click to browse
 author: "Matthew Son"
 output: 
   distill::distill_article:
@@ -12,10 +11,17 @@ output:
     # theme: yeti
     number_sections: yes
     toc_depth: 3
-params:
-  HOHO
-
 ---
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-FQJSVCPTF5"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-FQJSVCPTF5');
+</script>
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE, eval=FALSE)
@@ -1030,14 +1036,10 @@ output:
     toc_float:
       collapsed: false
       smooth_scroll: yes
-params:
-  my_param: HOHOHO
 
 ```
 
 ### parameter
-
-<!-- Call the parameter with `r params$my_param` -->
 
 
 ### style
