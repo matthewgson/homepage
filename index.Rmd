@@ -21,13 +21,17 @@ output:
 site: distill::distill_website
 ---
 
-
+<style type="text/css">
+  body{
+  font-size: 14pt;
+}
+</style>
 
 
 ## Welcome!
 
 
-I am a Ph.D. candidate in Finance at the University of Florida and expect to complete my degree by summer 2023. I am on the job market this year. My research interests are big data, machine Learning in Finance, FinTech, derivative securities, market microstructure, and mutual funds. I will be presenting my job market paper, *“High-Frequency Trading in the Options Market and Order Flow Toxicity”* at the FMA Ph.D. Special Session (2022), FMA Doctoral Consortium (2022), FMA Asia (2022), and FMA Global Conference (2022).
+I am a Ph.D. candidate in Finance at the University of Florida and expect to complete my degree by summer 2023. I am on the job market this year. My research interests are FinTech, big data, machine learning, investments, derivative securities, market microstructure, and mutual funds. I will be presenting my job market paper, *“High-Frequency Trading in the Options Market and Order Flow Toxicity”* at the FMA Ph.D. Special Session (2022), FMA Doctoral Consortium (2022), FMA Asia (2022), and FMA Global Conference (2022).
 
 
 I am a recipient of [**the Ph.D. Excellence in Teaching Award**](https://news.warrington.ufl.edu/students/three-finance-and-accounting-phd-students-honored-with-teaching-awards/) at Warrington College of Business. I taught *Financial Modeling* course that introduces various modern technologies including object-oriented programming, automation techniques and machine learning. I value mentoring relationships with my students and look forward to many more.
