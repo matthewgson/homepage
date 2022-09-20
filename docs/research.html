@@ -1931,10 +1931,24 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     --body-color:      rgba(0, 0, 0, 0.8);
   }
 
+  d-title h1{
+      font-size: 1em;
+  }
+
+
+  d-title p {
+      font-weight: 300;
+      color: green !important;
+      font-size: 1.2rem;
+      line-height: 1.55em;
+      grid-column: text;
+  }
+
+
   /*-- ARTICLE TABLE OF CONTENTS --*/
   .d-contents {
-    --heading-size:    18px;
-    --contents-size:   13px;
+    --heading-size:    15px;
+    --contents-size:   12px;
   }
 
   /*-- ARTICLE APPENDIX --*/
@@ -2326,7 +2340,8 @@ function init_posts_list() {
 <div class="description">
 <h2>High-Frequency Trading in the Options Market</h2>
 <div class="dt-tags"></div>
-<p>Working Paper (Job Market Paper)</p>
+<p>Working Paper (Job Market Paper)
+Despite structural differences between options and stock market, few studies have discussed the behavior and impact of HFTs in the options market. Options exchanges identify high- frequency/algorithmic traders as Professional customers (PCs). In this study, we use granular data that identifies trades by customers, PCs, and Market makers (MMs). We find that PCs mainly trade as a counterparty to customers, similar to MMs. However, the liquidity provision by PCs leads to order flow toxicity: PCs use a “cream skimming” strategy that imposes adverse selection costs on MMs. PCs mainly trade with uninformed customers and strategically pick resting orders, most likely leveraging their speed advantage. PCs provide less liquidity when the market and stock volatility are high. Customer call option trades made with PCs have one-tenth of price impact and no return or volatility predictability, while there is significant price impact in addition to return and volatility predictability when executed against MMs during the next 30 minutes. Our finding on HFTs’ non-arbitrage channel of order flow toxicity is new and suggests that the role of HFTs should be better understood in the context of the options market structure.</p>
 </div>
 </a>
 <a href="research/2networkmf/" class="post-preview">
