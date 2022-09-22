@@ -2,19 +2,19 @@
   {
     "path": "research/1optionshft/",
     "title": "High-Frequency Trading in the Options Market",
-    "description": "Working Paper (Job Market Paper)\nDespite structural differences between options and stock market, few studies have discussed the behavior and impact of HFTs in the options market. Options exchanges identify high- frequency/algorithmic traders as Professional customers (PCs). In this study, we use granular data that identifies trades by customers, PCs, and Market makers (MMs). We find that PCs mainly trade as a counterparty to customers, similar to MMs. However, the liquidity provision by PCs leads to order flow toxicity: PCs use a “cream skimming” strategy that imposes adverse selection costs on MMs. PCs mainly trade with uninformed customers and strategically pick resting orders, most likely leveraging their speed advantage. PCs provide less liquidity when the market and stock volatility are high. Customer call option trades made with PCs have one-tenth of price impact and no return or volatility predictability, while there is significant price impact in addition to return and volatility predictability when executed against MMs during the next 30 minutes. Our finding on HFTs’ non-arbitrage channel of order flow toxicity is new and suggests that the role of HFTs should be better understood in the context of the options market structure.",
+    "description": "Working Paper (Job Market Paper)",
     "author": [
       {
         "name": "Matthew Son",
         "url": {}
       }
     ],
-    "date": "2022-09-20",
+    "date": "2022-09-21",
     "categories": [],
     "contents": "\n\n\n\nAbstract\nDespite structural differences between options and stock market, few\nstudies have discussed the behavior and impact of HFTs in the options\nmarket. Options exchanges identify high- frequency/algorithmic traders\nas Professional customers (PCs). In this study, we use granular data\nthat identifies trades by customers, PCs, and Market makers (MMs). We\nfind that PCs mainly trade as a counterparty to customers, similar to\nMMs. However, the liquidity provision by PCs leads to order flow\ntoxicity: PCs use a “cream skimming” strategy that imposes adverse\nselection costs on MMs. PCs mainly trade with uninformed customers and\nstrategically pick resting orders, most likely leveraging their speed\nadvantage. PCs provide less liquidity when the market and stock\nvolatility are high. Customer call option trades made with PCs have\none-tenth of price impact and no return or volatility predictability,\nwhile there is significant price impact in addition to return and\nvolatility predictability when executed against MMs during the next 30\nminutes. Our finding on HFTs’ non-arbitrage channel of order flow\ntoxicity is new and suggests that the role of HFTs should be better\nunderstood in the context of the options market structure.\nDownload PDF\nDownload\nPDF\nSSRN Link : https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4199462\n\n\n\n",
     "preview": "research/1optionshft/distill-preview.png",
-    "last_modified": "2022-09-20T17:28:28-04:00",
-    "input_file": "1optionshft.knit.md"
+    "last_modified": "2022-09-21T23:56:10-04:00",
+    "input_file": {}
   },
   {
     "path": "research/2networkmf/",
@@ -26,11 +26,11 @@
         "url": {}
       }
     ],
-    "date": "2022-09-20",
+    "date": "2022-09-21",
     "categories": [],
     "contents": "\n\n\n\nAbstract\nDo funds with distinctive holding perform better? This paper proposes\na new, effective method to measure mutual funds’ portfolio\ndistinctiveness with a network model and examines their performance. By\nanalyzing 48 million fund network connections, we document two main\nfindings: First, we find a strong association between portfolio\ndistinctiveness and its long-term risk-adjusted return. We measure\nfunds’ distinctiveness in two dimensions: centrality and clusteredness.\nThe centrality measures the overall commonness of a fund’s portfolio,\nwhile clusteredness measures how strongly a fund is forming a clique\n(localized strategy). We find funds that hold assets commonly held by\nothers (high centrality) under- perform by 60bps, while funds with\nlocalized and distinctive portfolios (high clusteredness) outperform 140\nbps per year. Second, we find the effect of peer competition that\nmonotonically harms the fund’s performance. Funds in the lowest quintile\nof competition outperform 240bps per year compared to top quintile\nfunds. All results hold significance for more than 24 months. Our\nnetwork-based approach overcomes potential confounding effects from\nstyle misclassifications and mixed-style funds.\nDownload PDF\nDownload\nPDF\nSSRN Link : Submitted\n\n\n\n",
     "preview": "research/2networkmf/distill-preview.png",
-    "last_modified": "2022-09-20T16:54:21-04:00",
+    "last_modified": "2022-09-21T23:56:40-04:00",
     "input_file": {}
   },
   {
