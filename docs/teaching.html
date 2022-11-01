@@ -529,6 +529,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   d-article table.gt_table td,
   d-article table.gt_table th {
     border-bottom: none;
+    font-size: 100%;
   }
 
   .html-widget {
@@ -1601,15 +1602,21 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
       // hoverable references
       $('span.citation[data-cites]').each(function() {
-        if ($(this).children()[0].nodeName == "D-FOOTNOTE") {
-          var fn = $(this).children()[0]
+        const citeChild = $(this).children()[0]
+        // Do not process if @xyz has been used without escaping and without bibliography activated
+        // https://github.com/rstudio/distill/issues/466
+        if (citeChild === undefined) return true
+
+        if (citeChild.nodeName == "D-FOOTNOTE") {
+          var fn = citeChild
           $(this).html(fn.shadowRoot.querySelector("sup"))
           $(this).id = fn.id
           fn.remove()
         }
         var refs = $(this).attr('data-cites').split(" ");
         var refHtml = refs.map(function(ref) {
-          return "<p>" + $('#ref-' + ref).html() + "</p>";
+          // Could use CSS.escape too here, we insure backward compatibility in navigator
+          return "<p>" + $('div[id="ref-' + ref + '"]').html() + "</p>";
         }).join("\n");
         window.tippy(this, {
           allowHTML: true,
@@ -2134,7 +2141,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     color: var(--hover-color, white);
   }</style>
   <!--/radix_placeholder_distill-->
-  <script src="site_libs/header-attrs-2.14/header-attrs.js"></script>
+  <script src="site_libs/header-attrs-2.17/header-attrs.js"></script>
   <script src="site_libs/popper-2.6.0/popper.min.js"></script>
   <link href="site_libs/tippy-6.2.7/tippy.css" rel="stylesheet" />
   <link href="site_libs/tippy-6.2.7/tippy-light-border.css" rel="stylesheet" />
@@ -2194,94 +2201,45 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <h1>Teaching</h1>
 <!--radix_placeholder_categories-->
 <!--/radix_placeholder_categories-->
-<p><p>This page presents my lecture syllabus and students’ comments on
-Financial Modeling (FIN 4453) course I taught in Fall 2021. It was the
-first course from UF that aims to teach modern technologies that is
-highly applicable for finance professionals.</p></p>
+<p><p>This page presents my lecture syllabus and students’ comments on Financial Modeling (FIN 4453) course I taught in Fall 2021.
+It was the first course from UF that aims to teach modern technologies that is highly applicable for finance professionals.</p></p>
 </div>
 
 
 <div class="d-article">
 <h3 id="lecture-materials">Lecture Materials</h3>
 <ol type="1">
-<li><p><a href="files/FIN4453-Syllabus.pdf"><strong>Syllabus for FIN
-4453</strong></a></p></li>
-<li><p><a href="files/Course_Schedule.pdf"><strong>Course Schedule for
-Financial Modeling</strong></a><br />
+<li><p><a href="files/FIN4453-Syllabus.pdf"><strong>Syllabus for FIN 4453</strong></a></p></li>
+<li><p><a href="files/Course_Schedule.pdf"><strong>Course Schedule for Financial Modeling</strong></a><br />
 </p></li>
-<li><p><a href="files/Install_guide.pdf"><strong>Installation
-Guide</strong></a></p></li>
+<li><p><a href="files/Install_guide.pdf"><strong>Installation Guide</strong></a></p></li>
 </ol>
-<h3 id="course-description-syllabus">Course Description &amp;
-Syllabus</h3>
+<h3 id="course-description-syllabus">Course Description &amp; Syllabus</h3>
 <ul>
-<li><p>This course is a hands-on, practice-based course with extensive
-use of spreadsheets and programming language. In particular, I’ll teach
-you the workflow of financial modeling using Excel and Python (and some
-R). Practicing data manipulation, aggregation, visualization and
-statistical analyses in finance is the core part of the course.</p></li>
-<li><p>The objective of this course is to apply modeling techniques to
-solve financial problems. Topics include valuation of fixed income
-securities, portfolio management, and Monte Carlo simulation methods.
-Special topics such as data science in finance and machine learning will
-be introduced in the end if time permits.</p></li>
-<li><p>This course demands lots of time commitment. It will introduce a
-bunch of new technologies so those who are not technically inclined
-should expect to put in a lot of work. I will try to help everyone
-succeed in the course and build strong skills that would be applicable
-in a finance job, but your commitment is necessary. My goal is to make
-your programming experience enjoyable!</p></li>
+<li><p>This course is a hands-on, practice-based course with extensive use of spreadsheets and programming language. In particular, I’ll teach you the workflow of financial modeling using Excel and Python (and some R). Practicing data manipulation, aggregation, visualization and statistical analyses in finance is the core part of the course.</p></li>
+<li><p>The objective of this course is to apply modeling techniques to solve financial problems. Topics include valuation of fixed income securities, portfolio management, and Monte Carlo simulation methods. Special topics such as data science in finance and machine learning will be introduced in the end if time permits.</p></li>
+<li><p>This course demands lots of time commitment. It will introduce a bunch of new technologies so those who are not technically inclined should expect to put in a lot of work. I will try to help everyone succeed in the course and build strong skills that would be applicable in a finance job, but your commitment is necessary. My goal is to make your programming experience enjoyable!</p></li>
 </ul>
 <h3 id="course-evaluation">Course Evaluation</h3>
 <ul>
 <li><p>Instructor rating : 4.88 / 5.00 (Dept. Avg 3.81 / 5.00)</p></li>
-<li><p><a
-href="https://news.warrington.ufl.edu/students/three-finance-and-accounting-phd-students-honored-with-teaching-awards/"><strong>Ph.D. Excellence
-in Teaching Award Winner</strong></a></p></li>
+<li><p><a href="https://news.warrington.ufl.edu/students/three-finance-and-accounting-phd-students-honored-with-teaching-awards/"><strong>Ph.D. Excellence in Teaching Award Winner</strong></a></p></li>
 </ul>
 <h4 id="students-comments">Students’ Comments</h4>
 <ul>
-<li><p>“Professor Son is highly enthusiastic and knowledgeable about the
-course. He presents information in a meaningful way and fosters an
-environment that is excellent for learning.”</p></li>
-<li><p>“Engages the class very much and always is enthusiastic about the
-material. His knowledge of Python is very extensive and helped us
-understand it, given that most of us did not have prior coding
-experience.”</p></li>
-<li><p>“Professor Son is extremely patient and knowledgeable. He always
-checks in with the class to ensure that all students are keeping up and
-understand the material. He asked for feedback many times and altered
-the class schedule to fit our class needs. He is highly
-adaptable.”</p></li>
-<li><p>“Professor Son was always very accommodating and willing to
-provide extra help and give extended explanations when needed. He was
-also very responsive outside of class and was observant to how the class
-reacts to the difficult of the material and would adjust if
-needed.”</p></li>
-<li><p>“Professor Son did a great job covering a wide range of python
-and excel uses for financial modeling. He was flexible in the pace of
-the class to ensure all the students were on the same page. He made the
-class interactive as I could follow along on my own python file. The lab
-problems at the end of class also helped give us more
-practice.”</p></li>
+<li><p>“Professor Son is highly enthusiastic and knowledgeable about the course. He presents information in a meaningful way and fosters an environment that is excellent for learning.”</p></li>
+<li><p>“Engages the class very much and always is enthusiastic about the material. His knowledge of Python is very extensive and helped us understand it, given that most of us did not have prior coding experience.”</p></li>
+<li><p>“Professor Son is extremely patient and knowledgeable. He always checks in with the class to ensure that all students are keeping up and understand the material. He asked for feedback many times and altered the class schedule to fit our class needs. He is highly adaptable.”</p></li>
+<li><p>“Professor Son was always very accommodating and willing to provide extra help and give extended explanations when needed. He was also very responsive outside of class and was observant to how the class reacts to the difficult of the material and would adjust if needed.”</p></li>
+<li><p>“Professor Son did a great job covering a wide range of python and excel uses for financial modeling. He was flexible in the pace of the class to ensure all the students were on the same page. He made the class interactive as I could follow along on my own python file. The lab problems at the end of class also helped give us more practice.”</p></li>
 <li><p>“Very smart person with excellent teaching abilities”</p></li>
-<li><p>“Professor Sons enthusiasm and excitement of teaching this course
-is what made this course interactive. He provided regular feedback on
-all of my assignments which were really helpful to me.”</p></li>
-<li><p>“His strengths were in having his own deep understanding of the
-concepts that were being taught as well as being flexible and personal
-with his students.”</p></li>
+<li><p>“Professor Sons enthusiasm and excitement of teaching this course is what made this course interactive. He provided regular feedback on all of my assignments which were really helpful to me.”</p></li>
+<li><p>“His strengths were in having his own deep understanding of the concepts that were being taught as well as being flexible and personal with his students.”</p></li>
 <li><p>“I loved everything about this course.”</p></li>
 <li><p>“This has probably been my favorite finance course.”</p></li>
-<li><p>“I think the most valuable thing I’ve learned is being able to
-understand how python works and being able to use it for a finance
-purpose. I believe if I tried to learn python on my own, it would take a
-lot longer to master the concepts, but this class has helped
-tremendously, especially with Professor Son helping out with every
-step.”</p></li>
+<li><p>“I think the most valuable thing I’ve learned is being able to understand how python works and being able to use it for a finance purpose. I believe if I tried to learn python on my own, it would take a lot longer to master the concepts, but this class has helped tremendously, especially with Professor Son helping out with every step.”</p></li>
 </ul>
-<div class="sourceCode" id="cb1"><pre
-class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
+<div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->
 </div>
